@@ -114,8 +114,25 @@ img {
     margin-top: 32px;
     margin-bottom: 32px;
 }
+.nav .link-n {
+    display: block;
+    color: var(--header-color);
+    font-weight: 500;
+    line-height: 1.14;
+    display: block;
+    align-items: baseline;
+    padding: 0;
+     text-decoration: none;
+     padding: 32px 0; 
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
+}
 
+ .link-n:hover,
+ .link-n:focus {
+    color: var(--accent-color);
+}
 
 .list-contacts {
     display: flex;
