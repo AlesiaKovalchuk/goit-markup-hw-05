@@ -338,12 +338,13 @@ img {
 } 
  
 .card-thumb {  
-    
+    align-items: center;
     position: absolute;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     bottom: 0;
     left: 0;
     
@@ -355,12 +356,7 @@ img {
 
 .card-title {
    
-    margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
-        
+    
     font-weight: 700;
         font-size: 14px;
         line-height: calc(16/14);
